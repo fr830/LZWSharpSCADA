@@ -1,0 +1,382 @@
+﻿
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+在“安装”阶段发生异常。
+System.InvalidOperationException: 用户已在可执行文件 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 中取消服务安装。
+
+正在开始安装的“回滚”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“回滚”阶段已成功完成。
+
+已完成事务处理安装。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。
+
+
+正在开始卸载。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+卸载完成。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+在“安装”阶段发生异常。
+System.InvalidOperationException: 无法获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集中的安装程序类型。
+引发了内部异常 System.Reflection.ReflectionTypeLoadException，错误消息如下: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。。
+
+正在开始安装的“回滚”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+在 System.Configuration.Install.AssemblyInstaller 安装程序的“回滚”阶段发生异常。
+System.InvalidOperationException: 无法获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集中的安装程序类型。
+引发了内部异常 System.Reflection.ReflectionTypeLoadException，错误消息如下: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。。
+在安装的“回滚”阶段发生异常。将忽略该异常并继续回滚。但是，在完成回滚后计算机可能无法完全还原到它的初始状态。
+
+“回滚”阶段已成功完成。
+
+已完成事务处理安装。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+在“安装”阶段发生异常。
+System.InvalidOperationException: 无法获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集中的安装程序类型。
+引发了内部异常 System.Reflection.ReflectionTypeLoadException，错误消息如下: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。。
+
+正在开始安装的“回滚”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+在 System.Configuration.Install.AssemblyInstaller 安装程序的“回滚”阶段发生异常。
+System.InvalidOperationException: 无法获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集中的安装程序类型。
+引发了内部异常 System.Reflection.ReflectionTypeLoadException，错误消息如下: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。。
+在安装的“回滚”阶段发生异常。将忽略该异常并继续回滚。但是，在完成回滚后计算机可能无法完全还原到它的初始状态。
+
+“回滚”阶段已成功完成。
+
+已完成事务处理安装。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+在“安装”阶段发生异常。
+System.ComponentModel.Win32Exception: 指定的服务已标记为删除。
+
+正在开始安装的“回滚”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“回滚”阶段已成功完成。
+
+已完成事务处理安装。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+在“安装”阶段发生异常。
+System.ComponentModel.Win32Exception: 指定的服务已标记为删除。
+
+正在开始安装的“回滚”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“回滚”阶段已成功完成。
+
+已完成事务处理安装。
+
+正在运行事务处理安装。
+
+正在开始安装的“安装”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“安装”阶段已成功完成，正在开始“提交”阶段。
+查看日志文件的内容以获得 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.exe 程序集的进度。
+该文件位于 D:\VSProject\SharpSCADA-master\SCADA\Program1\MESClientService\bin\Debug\MESClientService.InstallLog。
+
+“提交”阶段已成功完成。
+
+已完成事务处理安装。

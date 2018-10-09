@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Client>
+<Server AlarmLimit="1000" Cycle="60000" />
+<RecipeDisplay Row="5" RowByCount="15" RowHeight="40" ColWidth="150" />
+<DataDisplay HdaLargeTick="60" HdaSmallTick="10" RtWaitTick="5000" RtCap="200" />
+
+<WindowSet Background="#FF2F4F4F">
+<Window Name="Trend" Left="47" Top="165" Width="1440" Height="760" />
+<Window Name="RuntimeChart" Left="150" Top="150" Width="600" Height="800" /><Window Name="TagMonitor" Left="0" Top="0" Width="0" Height="0" />
+<Window Name="AlarmSet" Left="0" Top="0" Width="0" Height="0" />
+</WindowSet>
+
+<QueueName Name="FormatName:DIRECT=OS:.\private$\PPCProduction" />
+</Client>

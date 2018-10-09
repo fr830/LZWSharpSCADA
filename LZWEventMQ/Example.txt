@@ -1,0 +1,46 @@
+#Example 1 - using the object to format the XML, call the methods to add the values
+
+        Dim oMQ As New LZWMessageQueue.MessageQueue
+
+        oMQ.QueueName = "FormatName:DIRECT=OS:lam-mis-dbs\private$\Test"
+
+        oMQ.EventHost = "laptop"
+        oMQ.EventQueue = "no queue"
+        oMQ.EventType = 9
+        oMQ.EventCounter = 99999
+        oMQ.EventTime = 123456789
+        oMQ.DataQuality = 1
+        oMQ.WaitedFor = 0
+        oMQ.EventDetected = "01 jan 2009 01:02:03"
+        oMQ.TriggerTime = "01 jan 2009 04:05:06"
+
+        oMQ.DefineProdMsg(6, 4, 4)
+        oMQ.SetInteger(1, 1)
+        oMQ.SetInteger(2, 2)
+        oMQ.SetInteger(3, 3)
+        oMQ.SetInteger(4, 4)
+        oMQ.SetInteger(5, 5)
+        oMQ.SetInteger(6, 6)
+        oMQ.SetFloat(1, 1.1)
+        oMQ.SetFloat(2, 2.2)
+        oMQ.SetFloat(3, 3.3)
+        oMQ.SetFloat(4, 4.4)
+        oMQ.SetString(1, Nothing)
+        oMQ.SetString(2, "bb")
+        oMQ.SetString(3, "ccc")
+        oMQ.SetString(4, "dddd")
+
+        If Not oMQ.SendProdMsg() Then
+        	MsgBox(oMQ.LastErrorMsg, , "Error")
+        End If
+
+
+#Example 2 - using the Send method to put a custom message which you have formatted yourself on the Queue
+
+        Dim oMQ As New LZWMessageQueue.MessageQueue
+
+        oMQ.QueueName = "FormatName:DIRECT=OS:lam-mis-dbs\private$\Test"
+
+        If Not oMQ.Send("MyHeaderText", "<LZWMessageQueue>this is a test message</LZWMessageQueue>") Then
+        	MsgBox(oMQ.LastErrorMsg, , "Error")
+        End If

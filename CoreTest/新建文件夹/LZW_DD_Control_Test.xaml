@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoreTest"
+        xmlns:HMIControl="clr-namespace:HMIControl;assembly=HMIControl" x:Class="CoreTest.LZW_DD_Control_Test"
+        mc:Ignorable="d"
+        Title="LZW_DD_Control_Test" Height="542.667" Width="315" WindowStyle="ToolWindow">
+    <Canvas x:Name="cvs1">
+        <HMIControl:LZW_DD_Control Canvas.Top="1" Height="510"/>
+
+
+    </Canvas>
+</Window>

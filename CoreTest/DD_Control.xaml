@@ -1,0 +1,30 @@
+﻿<Window  x:Class="CoreTest.DD_Control"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoreTest"
+        mc:Ignorable="d"
+        Title="DD_Control" Height="540" Width="315" HorizontalAlignment="Center">
+
+  
+    <TabControl x:Name="tabControl" Margin="6,3,-4,-4">
+        <TabItem Header="Genral">
+            <Grid x:Name="grid" Background="#FFE5E5E5">
+                <Button x:Name="btnAuto" Content="Auto" HorizontalAlignment="Left" Height="35" Margin="30,19.76,0,0" VerticalAlignment="Top" Width="101" Panel.ZIndex="3" />
+                <Button x:Name="btnMan" Content="Man" HorizontalAlignment="Right" Height="35" Margin="0,19.76,35,0" VerticalAlignment="Top" Width="101" Panel.ZIndex="3" />
+                <Button x:Name="btnTrend" Content="Trend" HorizontalAlignment="Left" Height="35" Margin="30,63.76,0,0" VerticalAlignment="Top" Width="101" Panel.ZIndex="3"/>
+                <Button x:Name="btnAct" Content="Act" HorizontalAlignment="Right" Height="35" Margin="0,62.76,35,0" VerticalAlignment="Top" Width="101" Panel.ZIndex="3"/>
+                <Button x:Name="btnOpen" Content="Open" HorizontalAlignment="Left" Height="35" Margin="30,105.76,0,0" VerticalAlignment="Top" Width="101" Panel.ZIndex="3" />
+                <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Right" Height="35" Margin="0,105.76,35,0" VerticalAlignment="Top" Width="101" Panel.ZIndex="3"/>
+                <Rectangle Fill="#FFF4F4F5" Margin="13.945,8.443,23.055,0" Stroke="Black" Height="149.76" VerticalAlignment="Top"/>
+                <Rectangle Fill="#FFF4F4F5" Margin="13.945,166.343,23.055,10" Stroke="Black"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+    </TabControl>
+</Window>
+
+    

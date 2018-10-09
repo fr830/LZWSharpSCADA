@@ -1,0 +1,211 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CoreTest"
+             xmlns:HMIControl="clr-namespace:HMIControl;assembly=HMIControl" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Name="Test" x:Class="CoreTest.UserControl1"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920"
+     Loaded="HMI_Loaded" Unloaded="HMI_Unloaded">
+    <Canvas x:Name="cvs1" Margin="0,4.5,0,-4.5">
+        <HMIControl:PreCleaner x:Name="a_Copy" Canvas.Left="285" Canvas.Top="538.5" RenderTransformOrigin="0.3,-0.022" Height="130" Width="135" Panel.ZIndex="1"/>
+        <HMIControl:PreCleaner x:Name="a_Copy1" Canvas.Left="560" Canvas.Top="538.5" RenderTransformOrigin="0.3,-0.022" Height="130" Width="135" Panel.ZIndex="1"/>
+        <HMIControl:PreCleaner x:Name="a_Copy2" Canvas.Left="815" Canvas.Top="538.5" RenderTransformOrigin="0.3,-0.022" Height="130" Width="135" Panel.ZIndex="1"/>
+        <HMIControl:PreCleaner x:Name="a_Copy3" Canvas.Left="1075" Canvas.Top="538.5" RenderTransformOrigin="0.3,-0.022" Height="130" Width="135" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1" Canvas.Left="180" Canvas.Top="161" TagReadText="设备名:C102XVD66\"/>
+        <HMIControl:LZW_CM_DD_LL4 x:Name="DDLL4" Canvas.Left="1670" Canvas.Top="206" TagReadText="设备名:C102XVD01\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy" Canvas.Left="180" Canvas.Top="270" TagReadText="设备名:C101XVD66\"/>
+        <HMIControl:LZW_CM_DD_LL4 x:Name="DDLL4_Copy" Canvas.Left="1491" Canvas.Top="318" TagReadText="设备名:C101XVD01\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=DDLL4}" TargetInfo="{Binding RightPin, ElementName=DDB1}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy}" TargetInfo="{Binding TopPin, ElementName=DDLL4_Copy}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy1" Canvas.Left="271" Canvas.Top="196" TagReadText="设备名:C1A1XVD32\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy1}" TargetInfo="{Binding TopPin, ElementName=a_Copy}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy2" Canvas.Left="271" Canvas.Top="316" TagReadText="设备名:C1A1XVD31\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy2}" TargetInfo="{Binding TopPin, ElementName=a_Copy}"/>
+        <HMIControl:LZW_CM_DD_P1 x:Name="P1" Canvas.Left="1390" Canvas.Top="793.5" TagReadText="设备名:C101XME01\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1" Height="40" Canvas.Left="225" Canvas.Top="153" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy1}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy" Height="40" Canvas.Left="405" Canvas.Top="153" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy1" Height="40" Canvas.Left="325" Canvas.Top="548.5" Width="45" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy3" Canvas.Left="371" Canvas.Top="206" TagReadText="设备名:C1A1XVD21\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy1}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy3}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy3}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy2" Height="40" Canvas.Left="225" Canvas.Top="263" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy2}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy2}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy4" Canvas.Left="546" Canvas.Top="196" TagReadText="设备名:C1S1XVD32\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy5" Canvas.Left="546" Canvas.Top="316" TagReadText="设备名:C1S1XVD31\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy3" Height="40" Canvas.Left="500" Canvas.Top="153" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy4" Height="40" Canvas.Left="680" Canvas.Top="153" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy5" Height="40" Canvas.Left="600" Canvas.Top="548.5" Width="45" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy6" Canvas.Left="646" Canvas.Top="203" TagReadText="设备名:C1S1XVD21\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy6" Height="40" Canvas.Left="500" Canvas.Top="263" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy7" Canvas.Left="786" Canvas.Top="205" TagReadText="设备名:C1H1XVD32\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy8" Canvas.Left="786" Canvas.Top="316" TagReadText="设备名:C1H1XVD31\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy7" Height="40" Canvas.Left="730" Canvas.Top="153" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy8" Height="40" Canvas.Left="930" Canvas.Top="153" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy9" Height="40" Canvas.Left="850" Canvas.Top="555.5" Width="45" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy9" Canvas.Left="906" Canvas.Top="213" TagReadText="设备名:C1H1XVD21\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy10" Height="40" Canvas.Left="730" Canvas.Top="263" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy10" Canvas.Left="1041" Canvas.Top="203" TagReadText="设备名:C1R1XVD32\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy11" Canvas.Left="1041" Canvas.Top="323" TagReadText="设备名:C1R1XVD31\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy11" Height="40" Canvas.Left="980" Canvas.Top="152.663" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy12" Height="40" Canvas.Left="1200" Canvas.Top="154" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy13" Height="40" Canvas.Left="1105" Canvas.Top="555.5" Width="45" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy12" Canvas.Left="1166" Canvas.Top="213" TagReadText="设备名:C1R1XVD21\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy14" Height="40" Canvas.Left="980" Canvas.Top="262" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy3}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy4}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy6}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy5}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy4}" TargetInfo="{Binding TopPin, ElementName=a_Copy1}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy5}" TargetInfo="{Binding TopPin, ElementName=a_Copy1}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy5}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy6}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy4}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy6}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy7}" TargetInfo="{Binding TopPin, ElementName=a_Copy2}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy8}" TargetInfo="{Binding TopPin, ElementName=a_Copy2}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy7}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy7}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy10}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy8}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy8}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy9}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy9}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy9}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy10}" TargetInfo="{Binding TopPin, ElementName=a_Copy3}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy11}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy10}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy11}" TargetInfo="{Binding TopPin, ElementName=a_Copy3}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy14}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy11}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy13}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy12}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy12}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy12}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy13" Canvas.Left="246" Canvas.Top="801.5" TagReadText="设备名:C172XVD621\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy14" Canvas.Left="246" Canvas.Top="923" TagReadText="设备名:C172XVD622\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy13}" TargetInfo="{Binding LeftPin, ElementName=P1}"/>
+        <HMIControl:LZW_CM_DD_P1 x:Name="P1_Copy" Canvas.Left="1390" Canvas.Top="923" TagReadText="设备名:C102XME01\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy14}" TargetInfo="{Binding LeftPin, ElementName=P1_Copy}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy15" Canvas.Left="396" Canvas.Top="738.5" TagReadText="设备名:C1A1XVD51\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=a_Copy}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy15}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy15" Height="40" Canvas.Left="430" Canvas.Top="791" Width="45" PinStyle="Top"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy15}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy15}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy16" Height="40" Canvas.Left="430" Canvas.Top="914.5" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy16" Canvas.Left="396" Canvas.Top="859.5" TagReadText="设备名:C1A1XVD52\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy16}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy16}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy16}" TargetInfo="{Binding BottomPin, ElementName=a_Copy}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy17" Canvas.Left="671" Canvas.Top="738.5" TagReadText="设备名:C1S1XVD51\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy17" Height="40" Canvas.Left="705" Canvas.Top="791" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy18" Height="40" Canvas.Left="705" Canvas.Top="914.5" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy18" Canvas.Left="671" Canvas.Top="859.5" TagReadText="设备名:C1S1XVD52\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy19" Canvas.Left="951" Canvas.Top="738.5" TagReadText="设备名:C1H1XVD51\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy19" Height="40" Canvas.Left="985" Canvas.Top="791" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy20" Height="40" Canvas.Left="985" Canvas.Top="914.5" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy20" Canvas.Left="951" Canvas.Top="859.5" TagReadText="设备名:C1H1XVD52\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy21" Canvas.Left="1200" Canvas.Top="738.5" TagReadText="设备名:C1R1XVD51\"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy21" Height="40" Canvas.Left="1234" Canvas.Top="791" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy22" Height="40" Canvas.Left="1234" Canvas.Top="914.5" Width="45" PinStyle="Top"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy22" Canvas.Left="1200" Canvas.Top="859.5" TagReadText="设备名:C1R1XVD52\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=a_Copy1}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy17}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy17}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy17}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy18}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy18}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy18}" TargetInfo="{Binding BottomPin, ElementName=a_Copy1}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy20}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy20}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy20}" TargetInfo="{Binding BottomPin, ElementName=a_Copy2}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy19}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy19}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy19}" TargetInfo="{Binding BottomPin, ElementName=a_Copy2}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy22}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy22}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy22}" TargetInfo="{Binding BottomPin, ElementName=a_Copy3}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy21}" TargetInfo="{Binding BottomPin, ElementName=a_Copy3}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy21}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy21}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=P1}" TargetInfo="{Binding BottomPin, ElementName=DDLL4_Copy}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=P1_Copy}" TargetInfo="{Binding BottomPin, ElementName=DDLL4}"/>
+        <HMIControl:LZW_CM_AI_01 Canvas.Left="296" Canvas.Top="608.5" Panel.ZIndex="1" TagReadText="设备名:C1A1CT01\Unit:ms\"/>
+        <HMIControl:LZW_CM_AI_01 Canvas.Left="575" Canvas.Top="608.5" Panel.ZIndex="1" TagReadText="设备名:C1S1CT01\Unit:ms\"/>
+        <HMIControl:LZW_CM_AI_01 Canvas.Left="827" Canvas.Top="577.126" Panel.ZIndex="1" TagReadText="设备名:VC1H1TT01\Unit:C\"/>
+        <HMIControl:LZW_CM_AI_01 Canvas.Left="296" Canvas.Top="577.126" Panel.ZIndex="1" TagReadText="设备名:C1A1TT01\Unit:C\"/>
+        <HMIControl:LZW_CM_AI_01 Canvas.Left="575" Canvas.Top="577.126" Panel.ZIndex="1" TagReadText="设备名:C1S1TT01\Unit:C\"/>
+        <Label x:Name="label" Content="C101XVD66" Height="25" Canvas.Left="140" Canvas.Top="305.813" Width="80"/>
+        <Label x:Name="label_Copy" Content="C102XVD66" Height="25" Canvas.Left="140" Canvas.Top="190" Width="80"/>
+        <Label x:Name="label_Copy1" Content="C1A1XVD31" Height="25" Canvas.Left="215" Canvas.Top="334.813" Width="80"/>
+        <Label x:Name="label_Copy2" Content="C1A1XVD32" Height="25" Canvas.Left="215" Canvas.Top="225" Width="80"/>
+        <Label x:Name="label_Copy3" Content="C1A1XVD21" Height="25" Canvas.Left="360" Canvas.Top="232.813" Width="80"/>
+        <Label x:Name="label_Copy4" Content="C172XVD622" Height="25" Canvas.Left="215" Canvas.Top="944.813" Width="90"/>
+        <Label x:Name="label_Copy5" Content="C172XVD621" Height="25" Canvas.Left="215" Canvas.Top="829" Width="90"/>
+        <Label x:Name="label_Copy6" Content="C1A1XVD52" Height="25" Canvas.Left="375.5" Canvas.Top="832.626" Width="80"/>
+        <Label x:Name="label_Copy7" Content="C1A1XVD51" Height="25" Canvas.Left="375.5" Canvas.Top="716.813" Width="80"/>
+        <Label x:Name="label_Copy8" Content="C1S1XVD31" Height="25" Canvas.Left="484.5" Canvas.Top="334.626" Width="80"/>
+        <Label x:Name="label_Copy9" Content="C1S1XVD32" Height="25" Canvas.Left="484.5" Canvas.Top="224.813" Width="80"/>
+        <Label x:Name="label_Copy10" Content="C1S1XVD21" Height="25" Canvas.Left="629.5" Canvas.Top="232.626" Width="80"/>
+        <Label x:Name="label_Copy11" Content="C1S1XVD52" Height="25" Canvas.Left="645" Canvas.Top="832.439" Width="80"/>
+        <Label x:Name="label_Copy12" Content="C1S1XVD51" Height="25" Canvas.Left="645" Canvas.Top="716.626" Width="80"/>
+        <Label x:Name="label_Copy13" Content="C1H1XVD31" Height="25" Canvas.Left="751.5" Canvas.Top="335.813" Width="80"/>
+        <Label x:Name="label_Copy14" Content="C1H1XVD32" Height="25" Canvas.Left="751.5" Canvas.Top="228" Width="80"/>
+        <Label x:Name="label_Copy15" Content="C1H1XVD21" Height="25" Canvas.Left="896.5" Canvas.Top="235.813" Width="80"/>
+        <Label x:Name="label_Copy16" Content="C1H1XVD52" Height="25" Canvas.Left="912" Canvas.Top="835.626" Width="80"/>
+        <Label x:Name="label_Copy17" Content="C1H1XVD51" Height="25" Canvas.Left="912" Canvas.Top="719.813" Width="80"/>
+        <Label x:Name="label_Copy18" Content="C1R1XVD31" Height="25" Canvas.Left="1007.5" Canvas.Top="341.626" Width="80"/>
+        <Label x:Name="label_Copy19" Content="C1R1XVD32" Height="25" Canvas.Left="1007.5" Canvas.Top="225.813" Width="80"/>
+        <Label x:Name="label_Copy20" Content="C1R1XVD21" Height="25" Canvas.Left="1152.5" Canvas.Top="233.626" Width="80"/>
+        <Label x:Name="label_Copy21" Content="C1R1XVD52" Height="25" Canvas.Left="1168" Canvas.Top="833.439" Width="80"/>
+        <Label x:Name="label_Copy22" Content="C1R1XVD51" Height="25" Canvas.Left="1168" Canvas.Top="717.626" Width="80"/>
+        <Label x:Name="label_Copy23" Content="C102XVD01" Height="25" Canvas.Left="1605" Canvas.Top="233.626" Width="80"/>
+        <Label x:Name="label_Copy24" Content="C101XVD01" Height="25" Canvas.Left="1417" Canvas.Top="352" Width="80"/>
+        <Label x:Name="label_Copy25" Content="C101XME01" Height="25" Canvas.Left="1365" Canvas.Top="762" Width="80"/>
+        <Label x:Name="label_Copy26" Content="C102XME01" Height="25" Canvas.Left="1365" Canvas.Top="887" Width="80"/>
+        <HMIControl:LZW_Drain x:Name="Drain" Canvas.Left="70" Canvas.Top="300.078"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1_Copy}" TargetInfo="{Binding TopPin, ElementName=Drain}"/>
+        <HMIControl:LZW_Drain x:Name="Drain_Copy" Canvas.Left="35" Canvas.Top="300.078"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=DDB1}" TargetInfo="{Binding TopPin, ElementName=Drain_Copy}"/>
+        <HMIControl:LZW_CM_DD_B2 x:Name="CMDDB2" Canvas.Left="360" Canvas.Top="482" TagReadText="设备名:C1A1XVD61\"/>
+        <HMIControl:LZW_CM_DD_B2 x:Name="CMDDB2_Copy" Canvas.Left="634" Canvas.Top="482" TagReadText="设备名:C1S1XVD61\"/>
+        <HMIControl:LZW_CM_DD_B2 x:Name="CMDDB2_Copy1" Canvas.Left="886" Canvas.Top="482" TagReadText="设备名:C1H1XVD61\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy23" Canvas.Left="246" Canvas.Top="411.5" TagReadText="设备名:C171XVD612\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy23}" TargetInfo="{Binding TopPin, ElementName=CMDDB2_Copy1}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy23" Height="40" Canvas.Left="350" Canvas.Top="403.126" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy24" Height="40" Canvas.Left="623" Canvas.Top="403.126" Width="45" PinStyle="Bottom"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy24}" TargetInfo="{Binding TopPin, ElementName=CMDDB2_Copy}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy25" Height="40" Canvas.Left="624" Canvas.Top="548.5" Width="45" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy25}" TargetInfo="{Binding BottomPin, ElementName=CMDDB2_Copy}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy26" Height="40" Canvas.Left="875" Canvas.Top="555.5" Width="45" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy26}" TargetInfo="{Binding BottomPin, ElementName=CMDDB2_Copy1}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy27" Height="17" Canvas.Left="361.334" Canvas.Top="555.5" Width="21" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy27}" TargetInfo="{Binding BottomPin, ElementName=CMDDB2}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy23}" TargetInfo="{Binding TopPin, ElementName=CMDDB2}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy24" Canvas.Left="215" Canvas.Top="451" TagReadText="设备名:C1A1XV93\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy24}" TargetInfo="{Binding TopPin, ElementName=a_Copy}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy25" Canvas.Left="215" Canvas.Top="511" TagReadText="设备名:C1A1XV62\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy25}" TargetInfo="{Binding TopPin, ElementName=a_Copy}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy26" Canvas.Left="500" Canvas.Top="451" TagReadText="设备名:C1S1XV93\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy27" Canvas.Left="500" Canvas.Top="511" TagReadText="设备名:C1S1XV62\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy27}" TargetInfo="{Binding TopPin, ElementName=a_Copy1}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy26}" TargetInfo="{Binding TopPin, ElementName=a_Copy1}"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy28" Canvas.Left="172" Canvas.Top="362.165" TagReadText="设备名:C173XVD621\"/>
+        <HMIControl:LZW_CM_DD_B1 x:Name="DDB1_Copy29" Canvas.Left="172" Canvas.Top="411.5" TagReadText="设备名:C171XVD611\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DDB1_Copy29}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy23}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy28" Height="17" Canvas.Left="215" Canvas.Top="415.5" Width="21" PinStyle="Top" Panel.ZIndex="1"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pin1_Copy28}" TargetInfo="{Binding RightPin, ElementName=DDB1_Copy28}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy29" Height="17" Canvas.Left="39" Canvas.Top="415.5" Width="21" Panel.ZIndex="1" PinStyle="Right"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy30" Height="17" Canvas.Left="39" Canvas.Top="366.165" Width="21" Panel.ZIndex="1" PinStyle="Right"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=Pin1_Copy30}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy28}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=Pin1_Copy29}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy29}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy31" Height="17" Canvas.Left="146" Canvas.Top="415.5" Width="21" Panel.ZIndex="1" PinStyle="Bottom"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy31}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy13}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=Pin1_Copy31}" TargetInfo="{Binding LeftPin, ElementName=DDB1_Copy14}"/>
+        <Label x:Name="label_Copy27" Content="C173XVD621" Height="25" Canvas.Left="125" Canvas.Top="381.5" Width="95"/>
+        <Label x:Name="label_Copy28" Content="C171XVD611" Height="25" Canvas.Left="65" Canvas.Top="432.5" Width="85"/>
+        <Label x:Name="label_Copy29" Content="C171XVD612" Height="25" Canvas.Left="225" Canvas.Top="385.939" Width="101"/>
+        <Label x:Name="label_Copy30" Content="C1A1XV93" Height="25" Canvas.Left="190" Canvas.Top="470.813" Width="80"/>
+        <Label x:Name="label_Copy31" Content="C1A1XV62" Height="25" Canvas.Left="190.5" Canvas.Top="531.313" Width="80"/>
+        <Label x:Name="label_Copy32" Content="C1A1XVD61" Height="25" Canvas.Left="375.5" Canvas.Top="457.813" Width="80"/>
+        <Label x:Name="label_Copy33" Content="C1S1XV93" Height="25" Canvas.Left="465" Canvas.Top="467.813" Width="80"/>
+        <Label x:Name="label_Copy34" Content="C1S1XV62" Height="25" Canvas.Left="465" Canvas.Top="535" Width="80"/>
+        <Label x:Name="label_Copy35" Content="C1S1XVD61" Height="25" Canvas.Left="646" Canvas.Top="510" Width="80"/>
+        <Label x:Name="label_Copy36" Content="C1H1XVD61" Height="25" Canvas.Left="906" Canvas.Top="508.5" Width="80"/>
+        <Label x:Name="label_Copy37" Content="C1A1TT01" Height="25" Canvas.Left="200" Canvas.Top="577.126" Width="80"/>
+        <Label x:Name="label_Copy38" Content="C1A1CT01" Height="25" Canvas.Left="200" Canvas.Top="607.126" Width="80"/>
+        <ed:LineArrow Fill="#FFF4F4F5" Height="0.374" Canvas.Left="1852.003" Stroke="Gray" Canvas.Top="329.773" Width="20" IsHitTestVisible="True" Cursor="None" ArrowSize="5" BendAmount="0" FontSize="64" StrokeThickness="2.5" Foreground="Gray"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy32" Height="24" Canvas.Left="1845" Canvas.Top="206" Width="18.5"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pin1_Copy33" Height="24" Canvas.Left="1845" Canvas.Top="318" Width="18.5"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=Pin1_Copy33}" TargetInfo="{Binding RightPin, ElementName=DDLL4_Copy}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=Pin1_Copy32}" TargetInfo="{Binding RightPin, ElementName=DDLL4}"/>
+        <ed:LineArrow Fill="#FFF4F4F5" Height="0.374" Canvas.Left="1852.003" Stroke="Gray" Canvas.Top="217.789" Width="20" IsHitTestVisible="True" Cursor="None" ArrowSize="5" BendAmount="0" FontSize="64" StrokeThickness="2.5" Foreground="Gray"/>
+
+
+
+
+
+
+    </Canvas>
+</UserControl>

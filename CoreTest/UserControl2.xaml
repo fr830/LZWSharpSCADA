@@ -1,0 +1,69 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CoreTest"
+             xmlns:HMIControl="clr-namespace:HMIControl;assembly=HMIControl" x:Name="Test" x:Class="CoreTest.UserControl2"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920"
+     Loaded="HMI_Loaded" Unloaded="HMI_Unloaded">
+    <Canvas x:Name="cvs1">
+        <HMIControl:CM_DD x:Name="DD3" Canvas.Left="776" Canvas.Top="56" TagReadText="设备名:C101XVD01\"/>
+        <HMIControl:LZW_CM_DD_LL x:Name="LL2" Canvas.Left="850" Canvas.Top="120" TagReadText="设备名:C101XVD01\"/>
+        <HMIControl:LZW_CM_AI_01 Canvas.Left="631" Canvas.Top="138" TagReadText="Unit:'C'\设备名:C101TT01\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=DD3}" TargetInfo="{Binding LeftPin, ElementName=LL2}" TagReadText="运行:C101XVD01_Status.13\"/>
+        <HMIControl:HMIText x:Name="l" Height="23" Canvas.Left="1054" Canvas.Top="176" Width="94" TagReadText="文本:C101TT01_PV\" Background="#FF46F0B4" BorderBrush="#FF1C6CAE" OpacityMask="#FFAE1515" BorderStyle="Fixed3D" DeviceName="lkj" IsPulse="True" TagWriteText="C101XVD01_TP_CD_Close:\" StringFormat="F3" Text="ttt"/>
+        <HMIControl:LZW_HMIInputOutput Canvas.Left="1225" Canvas.Top="157" TagReadText="文本:C101XVD01_TP_CD_Close\" TagWriteText="C101XVD01_TP_CD_Close:\"/>
+        <HMIControl:LZW_CM_DD_B2 x:Name="BB" Canvas.Left="210" Canvas.Top="198" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_LL2 x:Name="ppp" Canvas.Left="701" Canvas.Top="191" TagReadText="设备名:C101XVD01\" Panel.ZIndex="1"/>
+        <HMIControl:LZW_CM_DD_P1 x:Name="P1" Canvas.Left="915" Canvas.Top="221" TagReadText="设备名:C101XVD01\"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=ppp}" TargetInfo="{Binding LeftPin, ElementName=P1}"/>
+        <HMIControl:LZW_CM_DD_LL4 x:Name="_1223" Canvas.Left="506" Canvas.Top="100" TagReadText="设备名:C101XVD01\"/>
+        <HMIControl:LZW_CM_DD_LL x:Name="_23" Canvas.Left="629" Canvas.Top="178"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=_23}" TargetInfo="{Binding LeftPin, ElementName=ppp}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=_23}" TargetInfo="{Binding BottomPin, ElementName=ppp}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=_1223}" TargetInfo="{Binding LeftPin, ElementName=_23}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding BottomPin, ElementName=_1223}" TargetInfo="{Binding LeftPin, ElementName=DD3}"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=_1223}" TargetInfo="{Binding LeftPin, ElementName=DD3}"/>
+        <HMIControl:LZW_CM_DD_LL3 x:Name="aaa" Canvas.Left="409" Canvas.Top="63" RenderTransformOrigin="0.5,0.5">
+            <HMIControl:LZW_CM_DD_LL3.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="361.555"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </HMIControl:LZW_CM_DD_LL3.RenderTransform>
+        </HMIControl:LZW_CM_DD_LL3>
+        <HMIControl:LZW_CM_DD_B1 x:Name="jjj" Canvas.Left="241" Canvas.Top="66" Height="49" Width="46" RenderTransformOrigin="0.5,0.5" CMDDPinStyle="PinStyle2">
+            <HMIControl:LZW_CM_DD_B1.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.048"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </HMIControl:LZW_CM_DD_B1.RenderTransform>
+        </HMIControl:LZW_CM_DD_B1>
+        <HMIControl:LZW_CM_DD_B1 x:Name="lz" Canvas.Left="138" Canvas.Top="205" RenderTransformOrigin="0.5,0.5" CMDDPinStyle="PinStyle1">
+            <HMIControl:LZW_CM_DD_B1.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-2070.697"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </HMIControl:LZW_CM_DD_B1.RenderTransform>
+        </HMIControl:LZW_CM_DD_B1>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=lz}" TargetInfo="{Binding LeftPin, ElementName=jjj}"/>
+        <HMIControl:LZW_Line_Pin1 x:Name="Pine" Height="22" Canvas.Left="545" Canvas.Top="236" Width="27" PinStyle="Top"/>
+        <HMIControl:LinkLine OriginInfo="{Binding TopPin, ElementName=Pine}" TargetInfo="{Binding BottomPin, ElementName=BB}"/>
+        <HMIControl:LZW_Line_Pin4 x:Name="Pin4" Height="100" Canvas.Left="605" Canvas.Top="296" Width="100"/>
+        <HMIControl:LinkLine OriginInfo="{Binding LeftPin, ElementName=Pin4}" TargetInfo="{Binding BottomPin, ElementName=BB}" LineBrush="#FF0023FF" Width="20" Height="10"/>
+        <HMIControl:LinkLine OriginInfo="{Binding RightPin, ElementName=Pin4}" TargetInfo="{Binding LeftPin, ElementName=P1}" OpacityMask="#FF7E3F56" LineBrush="#FFCD1E6D"/>
+
+
+
+    </Canvas>
+</UserControl>

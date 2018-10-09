@@ -1,0 +1,73 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CoreTest"
+             xmlns:HMIControl="clr-namespace:HMIControl;assembly=HMIControl" x:Class="CoreTest.UserControl3"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Canvas>
+
+        <HMIControl:AirHammer HorizontalAlignment="Left" Margin="56,44,0,0" VerticalAlignment="Top" Height="95" Width="138"/>
+        <HMIControl:AlarmControl HorizontalAlignment="Left" Margin="408,90,0,0" VerticalAlignment="Top" Height="192" Width="138"/>
+        <HMIControl:BeltConveyor HorizontalAlignment="Left" Margin="217,407,0,0" VerticalAlignment="Top" Height="19" Width="563"/>
+        <HMIControl:Bucket HorizontalAlignment="Left" Margin="900,-20,0,0" VerticalAlignment="Top" Height="576" Width="328"/>
+        <HMIControl:Buffer HorizontalAlignment="Left" Margin="1236,376,0,0" VerticalAlignment="Top" Width="588" Height="404"/>
+        <HMIControl:BufferBin HorizontalAlignment="Left" Margin="-820,300,0,-32" VerticalAlignment="Top" Width="276"/>
+        <HMIControl:ChainConveyor HorizontalAlignment="Left" Margin="1248,-68,0,0" VerticalAlignment="Top" Height="91" Width="672"/>
+        <HMIControl:Check HorizontalAlignment="Left" Margin="1342,117,0,0" VerticalAlignment="Top" Height="212" Width="200"/>
+        <HMIControl:ControlValve Margin="2174,612,-440,0" VerticalAlignment="Top" Height="136" HorizontalAlignment="Left" Width="186"/>
+        <HMIControl:CutoffGate HorizontalAlignment="Left" Height="496" VerticalAlignment="Top" Width="248" Canvas.Left="632" Canvas.Top="1168"/>
+        <HMIControl:Cyclone Canvas.Left="-384" Canvas.Top="572" Height="550" Width="269"/>
+        <HMIControl:Cylinder Canvas.Left="-704" Canvas.Top="1236"/>
+        <HMIControl:CylinderStick Canvas.Left="-736" Canvas.Top="1396"/>
+        <HMIControl:CylinderTopView Canvas.Left="-284" Canvas.Top="1316"/>
+        <HMIControl:Deduster Canvas.Left="496" Canvas.Top="1756"/>
+        <HMIControl:DischargePot Canvas.Left="1236" Canvas.Top="1196" Width="636"/>
+        <HMIControl:DistributorAver Canvas.Left="2152" Canvas.Top="1264" Height="542" Width="372"/>
+        <HMIControl:Divert Canvas.Left="2784" Canvas.Top="768" Height="380" Width="408"/>
+        <HMIControl:DraughtFan Canvas.Left="2600" Canvas.Top="-132" Height="606" Width="688"/>
+        <HMIControl:Dryer Canvas.Left="2764" Canvas.Top="1232"/>
+        <HMIControl:Elevator Canvas.Left="-2360" Canvas.Top="-1224" Height="2184" Width="646"/>
+        <HMIControl:Fan Canvas.Left="-3928" Canvas.Top="-344" Height="602" Width="640"/>
+        <HMIControl:FeedBin Canvas.Left="-4816" Canvas.Top="-96" Height="1068" Width="684"/>
+        <HMIControl:Flange Canvas.Left="-5376" Canvas.Top="1072" Height="872" Width="904"/>
+        <HMIControl:FourWays Canvas.Left="-3800" Canvas.Top="1456" Height="674" Width="976"/>
+        <HMIControl:GarbageBag Canvas.Left="-2384" Canvas.Top="1704" Height="848" Width="1064"/>
+        <HMIControl:Gate Canvas.Left="-4280" Canvas.Top="2104" Height="760" Width="636"/>
+        <HMIControl:Grind Canvas.Left="-5920" Canvas.Top="-1248" Height="824" Width="1290"/>
+        <HMIControl:HMIButton x:Name="hMIButton" Content="HMIButton" Canvas.Left="-1065" Canvas.Top="2180" Height="95" Width="294"/>
+        <HMIControl:HVScale Height="545" Canvas.Left="-451" Canvas.Top="2180" Width="1267"/>
+        <HMIControl:HVValueIndicator Height="580" Canvas.Left="1139" Canvas.Top="2104" Width="596"/>
+        <HMIControl:LiquidAdd Canvas.Left="-8570" Canvas.Top="-575" Height="2187" Width="1605"/>
+        <HMIControl:LiquidBuf Canvas.Left="-10105" Canvas.Top="-265" Height="1581" Width="1160"/>
+        <HMIControl:LiquidBuf1 Canvas.Left="-9765" Canvas.Top="1756" Height="1439" Width="1075"/>
+        <HMIControl:MagnetCleaner Canvas.Left="-7805" Canvas.Top="1704" Height="1315" Width="1280"/>
+        <HMIControl:Magnetism Canvas.Left="-6325" Canvas.Top="2585" Height="1115" Width="1496"/>
+        <HMIControl:MagnetValve Canvas.Left="-4415" Canvas.Top="3050" Height="895" Width="666"/>
+        <HMIControl:ManualAddControl Canvas.Left="-3240" Canvas.Top="3050" Height="1840" Width="2080"/>
+        <HMIControl:Motor Canvas.Left="56" Canvas.Top="3945" Height="945" Width="1069"/>
+        <HMIControl:PackingBench Canvas.Left="2040" Canvas.Top="3945" Height="1570" Width="1674"/>
+        <HMIControl:PreCleaner Canvas.Left="-1376" Canvas.Top="4720" Height="2410" Width="2156"/>
+        <HMIControl:ProportionValve Canvas.Left="-4746" Canvas.Top="5185" Height="1415" Width="997"/>
+        <HMIControl:PushButton Canvas.Left="-7805" Canvas.Top="5185" Height="1035" Width="1120"/>
+        <HMIControl:Scale Canvas.Left="-10105" Canvas.Top="5185" Height="1415" Width="1415"/>
+        <HMIControl:RoundSlider Height="1250" Canvas.Left="-6120" Canvas.Top="6280" Width="1010"/>
+        <HMIControl:SelectSwitch Canvas.Left="-10200" Canvas.Top="3780" Height="1110" Width="760"/>
+        <HMIControl:Sifter Canvas.Left="-2824" Canvas.Top="6600" Height="1055" Width="1443"/>
+        <HMIControl:Silo Canvas.Left="6265" Canvas.Top="2275" Height="3240" Width="2255"/>
+        <HMIControl:SlideGate Canvas.Left="10080" Canvas.Top="3945" Width="3215"/>
+        <HMIControl:Tacho Height="2045" Canvas.Left="10730" Canvas.Top="7655" Width="2565"/>
+        <HMIControl:SparyTube Canvas.Left="7745" Canvas.Top="4890" Height="2240" Width="8755"/>
+        <HMIControl:Tacho Height="1830" Canvas.Left="6265" Canvas.Top="7130" Width="1480"/>
+        <HMIControl:Truck Canvas.Left="-17760" Canvas.Top="-1224" Width="4630"/>
+        <HMIControl:TubeArc Canvas.Left="16505" Canvas.Top="-3230" Height="900" Width="675"/>
+        <HMIControl:TubeLine Height="675" Canvas.Left="-9310" Canvas.Top="-3230" Width="25815"/>
+        <HMIControl:TubeT Canvas.Left="-18590" Canvas.Top="3195" Height="1695" Width="2020"/>
+
+
+
+
+    </Canvas>
+</UserControl>
