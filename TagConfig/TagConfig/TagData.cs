@@ -15,7 +15,7 @@ namespace TagConfig
         ushort _size;
         float _max, _min;
         int _cycle;
-        string _addr, _name, _desp;
+        string _addr, _name, _desp;  
         object _obj;
 
         public string Name
