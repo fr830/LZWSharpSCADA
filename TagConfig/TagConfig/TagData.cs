@@ -5,7 +5,7 @@ using System.Data;
 using System.Reflection;
 using System.ComponentModel;
 
-namespace TagConfig
+namespace TagConfig //test
 {
     public class TagData : IComparable<TagData>
     {
